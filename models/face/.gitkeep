@@ -1,0 +1,2 @@
+This directory holds downloaded face-detection/upscale models (yoloface_8n.onnx,
+arcface_w600k_r50.onnx). Run `python setup/download_models.py` to populate it.

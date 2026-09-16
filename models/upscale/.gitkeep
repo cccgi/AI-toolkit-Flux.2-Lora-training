@@ -1,0 +1,2 @@
+This directory holds the downloaded ESRGAN upscaler (4x-UltraSharp.pth).
+Run `python setup/download_models.py` to populate it.

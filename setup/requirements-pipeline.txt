@@ -1,0 +1,15 @@
+opencv-python
+numpy
+pillow
+onnxruntime
+requests
+pyyaml
+spandrel
+huggingface_hub
+
+# CPU-only torch is enough for this repo's own pipeline (face detection/
+# upscaling only) — the ai-toolkit-perceptual venv gets its own GPU torch
+# separately. This avoids downloading multi-GB CUDA wheels twice.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
